@@ -13,7 +13,6 @@ class RepositoriesController < ApplicationController
   end
 
   @repos = JSON.parse(repos.body)
-  binding.pry
 end
 
 end
